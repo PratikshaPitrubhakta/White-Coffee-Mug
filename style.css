@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper{
+  height: 100vh;
+  perspective: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-box{
+  display: flex;
+  border: 0px;
+  width: 610px;
+  height: 380px;
+  position: relative;
+  border-radius: 1.5rem;
+  background-color: white;
+}
+
+.display-img{
+  width: 270px;
+  height: 380px;
+  border-top-left-radius: 1.5rem;  
+  border-bottom-left-radius: 1.5rem;
+}
+
+.card-text{
+  margin: 1.5em 2em;  
+}
+
+.desc1{
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat",sans-serif;
+}
+
+.desc2{
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  line-height: 1;
+  /* word-spacing: 8px; */
+}
+
+.desc3{
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  
+}
+
+.desc4{
+  color: hsl(158, 36%, 37%);
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: "Fraunces", serif;
+  margin-right: 0.3em;
+}
+
+.desc5{
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-size: large;
+}
+
+.desc6{
+  width: 280px;
+  padding: 15px;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 1em;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-img{
+  max-width: 100%;
+  margin-right: 1em;
+}
+
+.desc7{
+  color: white;
+  font-size: larger;
+  font-family: "Montserrat",sans-serif;
+}
